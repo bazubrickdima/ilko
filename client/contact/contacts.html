@@ -1,0 +1,65 @@
+<template name="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 mainWrraper">
+                <div class="col-sm-8">
+                    <h2>Контактні дані</h2>
+                    <legend>Завжди до ваших послуг</legend>
+                    <!--contacts-->
+                    <div id="ContactInfo">
+                        <p>
+                            Адреса:
+                        </p>
+                        
+                        <p>тел</p>
+
+                       
+                        <p>тел</p>
+
+                       
+                        <p>
+                            Електронна пошта: 
+                        </p>
+                    </div>
+                    <!--FORM-->
+                    <div>
+
+                        <form class="form-horizontal" id="contacts">
+                            <fieldset id="fieldForm">
+                                <legend>Напишіть нам</legend>
+
+                                <div class="form-group" id="email">
+                                    <label for="inputEmail" class="col-md-3 control-label">Ваш Email:</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" id="inputEmail">
+                                    </div>
+                                </div>
+                                <div class="form-group" id="temaId">
+                                    <label class="control-label col-md-3 control-label" for="tema">Тема:</label>
+
+                                    <div class="col-md-9">
+                                        <input class="form-control" id="tema" type="text" value="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="textArea" class="col-md-3 control-label">Повідомлення</label>
+                                    <div class="col-md-9">
+                                        <textarea class="form-control" rows="6" id="textArea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-9  col-md-offset-3">
+                                        <button type="submit" class="btn btn-primary">Відправити</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                   
+                </div>
+                {{>rightBlocks}}
+            </div>
+        </div>
+    </div>
+</template>

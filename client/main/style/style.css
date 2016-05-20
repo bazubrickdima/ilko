@@ -1,0 +1,195 @@
+/*==========================test==================================*/
+body{
+    font-family: ClinicaPro-Regular;
+    font-size: 1.6rem;
+    background-color: #F1F2F2;
+    color: #414141;
+}
+
+
+
+@font-face {
+font-family: blisspro-light;
+src: local("blisspro-light"), url("fonts/blisspro-light.otf");
+}
+@font-face {
+font-family: ClinicaPro-Regular;
+src: local("ClinicaPro-Regular"), url("fonts/ClinicaPro-Regular.otf");
+}
+@font-face {
+font-family: FiraSansOT-Regular;
+src: local("FiraSansOT-Regular"), url("fonts/FiraSansOT-Regular.otf");
+}
+@font-face {
+font-family: FiraSansOT-Light;
+src: local("FiraSansOT-Light"), url("fonts/FiraSansOT-Light.otf");
+}
+
+/*==========================test==================================*/
+
+.mainWrraper{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+
+
+/*==========================header==================================*/
+
+.mainImg{
+    border-bottom: 2px solid #f5f5f5;
+}
+/*==========================nav==================================*/
+.navbar{
+    margin-bottom: 0;
+}
+.dropdown-menu > li > a:hover{
+    background-color: #283593;
+}
+.navbar-collapse{
+    padding: 0;
+}
+.imglogo{
+    width:40px;
+    padding-top:4px; 
+    padding-left:4px;
+    margin-top:4px; 
+    margin-right:5px;
+}
+
+/*==========================nav==================================*/
+
+
+
+
+
+/*==========================slider==================================*/
+
+/*==========================slider==================================*/
+
+
+
+.carousel{
+margin-bottom: 20px;
+}
+.carousel-inner > div >:first-child{
+width: 100%;
+height: 400px;
+}
+
+
+
+/*==========================mainContent==================================*/
+.mainContent h2{
+    margin-bottom: 1.9rem;
+}
+.mainContent p{
+    text-align: justify;
+    font-size: 1.8rem;
+}
+.mainContentImg1{
+    margin-right: 15px;
+    float: left;
+}
+.mainContentImg2{
+    margin-left: 15px;
+    float: right;
+}
+.mainContent {
+    border-top: 1px solid #F1F2F2;
+}
+.mainContent h3{
+}
+/*==========================mainContent==================================*/
+
+
+
+.services{
+    background-color: white;
+}
+
+/*==========================rightBlocks==================================*/
+
+.panel-primary{
+    border-color: #E0E0E0;
+}
+.panel-primary > .panel-heading{
+    background-color: #222222;
+    border-color: #E0E0E0;
+}
+
+.rightBlocks{
+    margin-top: 21px;
+}
+
+.panel-body div {
+    
+}
+
+.panel-title {
+    font-size: 26px;
+}
+.panel-body img{
+    margin-bottom: 10px;
+}
+/*==========================rightBlocks==================================*/
+
+
+
+
+
+/*==========================footer==================================*/
+
+.largeFooter{
+    min-height: 180px;
+    background-color: #212121;
+}
+.largeFooter p{
+     color: #DBC048;
+ }
+.largeFooter ul{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 40px;
+    padding-left: 0;
+}
+.largeFooter a{
+    color: #9E9E9E;
+}
+.largeFooter a:hover{
+    color: #E0E0E0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.largeFooter h3{
+    color: white;
+}
+.smallFooter{
+    background-color: #000000;
+    height:45px;
+    padding-top: 12px;
+}
+.smallFooter p{
+    color:#E0E0E0;
+    font-size: 14px;
+}
+.smallFooter a{
+    color: #9E9E9E;
+}
+.smallFooter a:hover{
+    color: #E0E0E0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.carousel-indicators .active {
+    background-color: #283593;
+}
+/*==========================footer==================================*/
+table{
+    border: 1px solid #DDDDDD;
+}
+
+#ContactInfo {
+    padding-bottom: 30px;
+}
